@@ -5,6 +5,7 @@ const postCSSPlugins = [
   require("postcss-simple-vars"),
   require("postcss-nested"),
   require("autoprefixer"),
+  require("postcss-hexrgba"),
 ];
 
 module.exports = {
